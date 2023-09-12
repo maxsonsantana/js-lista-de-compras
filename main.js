@@ -52,7 +52,7 @@ function mostrarItem(){
         ulItensComprados.innerHTML += `
     <li class="item-compra is-flex is-justify-content-space-between" data-value="${index}">
         <div>
-            <input type="checkbox" checked class="is-clickable" />  
+            <input type="checkbox" checked="checked" class="is-clickable" />  
             <span class="itens-comprados is-size-5">${elemento.valor}</span>
         </div>
         <div>
